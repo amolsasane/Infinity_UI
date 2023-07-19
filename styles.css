@@ -3,3 +3,16 @@
 body {
      font-family: 'Heebo', sans-serif;
 }
+
+:root {
+     --primary-color: #000077;
+}
+
+/** containers **/
+.container {
+     padding: 0rem 1rem;
+}
+.container-center {
+     max-width: 600px;
+     margin: auto;
+}
