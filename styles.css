@@ -6,6 +6,7 @@ body {
 
 :root {
      --primary-color: #000077;
+     --secondary-color: #6287B7;
 }
 
 hr {
@@ -65,4 +66,17 @@ hr {
 }
 .navigation .active-link {
      font-weight: bold;
+}
+
+/** header **/
+.header .header-img {
+     display: block;
+     max-width: 400px;
+     margin: auto;
+}
+.header .header-heading {
+     color: var(--secondary-color);
+}
+.header .header-heading .heading-highlight {
+     color: var(--primary-color);
 }
