@@ -76,6 +76,8 @@ hr {
 }
 .header .header-heading {
      color: var(--secondary-color);
+     text-align: center;
+     padding-top: 1rem;
 }
 .header .header-heading .heading-highlight {
      color: var(--primary-color);
