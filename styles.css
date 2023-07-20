@@ -2,11 +2,13 @@
 
 body {
      font-family: 'Heebo', sans-serif;
+     margin: 0rem;
 }
 
 :root {
      --primary-color: #000077;
-     --secondary-color: #6287B7;
+     --secondary-color: #5E5BBA;
+     --background-color: #F1F1FA;
 }
 
 hr {
@@ -81,4 +83,18 @@ hr {
 }
 .header .header-heading .heading-highlight {
      color: var(--primary-color);
+}
+
+/** sections **/
+.section {
+     padding: 1rem;
+}
+.section h1 {
+     text-align: center;
+}
+.section p {
+     text-align: justify;
+}
+.ow {
+     background-color: var(--background-color);
 }
